@@ -3,15 +3,17 @@
 namespace app\models\search;
 
 use app\models\History;
+
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
+
 
 /**
  * HistorySearch represents the model behind the search form about `app\models\History`.
  *
  * @property array $objects
  */
-class HistorySearch extends History
+class HistorySearch extends History  implements IHistorySearch
 {
     /**
      * @inheritdoc
@@ -67,7 +69,7 @@ class HistorySearch extends History
      *
      * @return ActiveDataProvider
      */
-    public function search($params)
+    public function search($params): ActiveDataProvider
     {
         $query = History::find();
 
