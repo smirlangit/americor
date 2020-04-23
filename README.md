@@ -2,7 +2,7 @@
 
 ## Сейтимбеков Мирлан 
 - mirlanius@gmail.com +7 (777) 356 3898
-- рузюме:  https://drive.google.com/file/d/1xJIyTFiRFjX9WL2N7X5tdcouLicyi-C0/view?usp=sharing
+- резюме:  https://drive.google.com/file/d/1xJIyTFiRFjX9WL2N7X5tdcouLicyi-C0/view?usp=sharing
 ### сколько отняло времени:
 - 30 мин подготовка (вникание в код, подправка docker-compose, подгoтовка сервера по мелочам)
 - 2 с половиной часа рефакторинг
